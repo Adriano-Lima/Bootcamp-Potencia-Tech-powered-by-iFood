@@ -2,9 +2,7 @@
 ## Entenda o Objetivo de cada Desafio:
 
 
-
-##### Desafio: Os números são iguais?
-## **Desafio**
+## **Desafio**: Os números são iguais?
 
 Nesse desafio, dados dois números, verifique se eles são iguais. Caso sejam, retorne "Sao iguais!”. Caso contrário, retorne "Nao sao iguais!” sem as aspas. 
 
@@ -22,11 +20,10 @@ A saída deverá retornar a frase "Sao iguais!" caso A e B sejam o mesmo valor. 
 |         50 50          |     Sao iguais!      |
 |         38 90          |   Nao sao iguais!    |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/numeros/iguais/Desafio.java)
 ------
 
-##### Desafio: Somando múltiplos
-## **Desafio**
+## **Desafio**: Somando múltiplos
 
 Dado um número A e o seu limite N, encontre a soma de todos os múltiplos A até o seu limite N.
 
@@ -50,13 +47,11 @@ A saída deverá retornar o valor da soma de todos os múltiplos A até o seu li
 | :-----: | :---: |
 |  3 18   |  63   |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/somando/multiplos/Main.java)
 
 ------
 
-##### Desafio: Uma chamada recursiva
-
-## **Descrição**
+## **Desafio**: Uma chamada recursiva
 
 Neste desafio, receba um número inteiro **N**, calcule e imprima o **somatório** de **todos** os números de **N** até **0**.  
 
@@ -75,12 +70,10 @@ Será  impresso o **somatório** de **N** até **0**, como no exemplo a baixo:
 |         15         |       120        |
 
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/chamada/recursiva/Main.java)
 ------
 
-##### Desafio: FizzBuzz
-
-## **Desafio**
+## **Desafio** : FizzBuzz
 
 Neste desafio, você terá que criar uma função que faça um número como argumento e retorne "Fizz", "Buzz" ou "FizzBuzz". 
 
@@ -103,12 +96,10 @@ Retorne a palavra correta de acordo com o seu múltiplo. Caso o valor não seja 
 |           15           |       FizzBuzz       |
 |           4            |          4           |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/fizzbuzz/Desafio.java)
 ------
 
-##### Desafio: Busca Sequencial 
-
-## **Desafio**
+## **Desafio**: Busca Sequencial 
 
 Uma busca sequencial se caracteriza por percorrermos todos os elementos de uma estrutura em busca do elemento “X” desejado. Neste desafio, dada uma estrutura de vetor A [a1, a2...an], percorra todo o vetor fazendo as comparações de A[N] = X. Caso a condição seja verdadeira, “X” existe na estrutura e a busca será concluída com sucesso. 
 
@@ -144,7 +135,7 @@ A saída será a a posição do elemento no array, caso o valor não se encontre
 |           4            | Numero 4 nao encontrado! |
 
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/busca/sequencial/BuscaSequencial.java)
 
 
 

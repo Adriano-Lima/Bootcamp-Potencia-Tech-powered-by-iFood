@@ -2,10 +2,7 @@
 ## Entenda o Objetivo de cada Desafio:
 
 
-
-##### Desafio: Checagem de Palíndromo
-
-## **Desafio**
+## **Desafio**: Checagem de Palíndromo
 
 Neste desafio você deverá construir uma função que recebe uma String e identifique se a mesma é um palíndromo, ou seja, se a String é igual a ela mesma invertida. 
 
@@ -29,13 +26,11 @@ Para cada String informada, terá uma saída de valor Booleano: TRUE, caso a pal
 |       digital       |       FALSE       |
 |         ana         |       TRUE        |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Dominando%20Algoritmos%20Intermedi%C3%A1rios%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-intermediarios/src/palindromo/Desafio.java)
 
 ------
 
-##### Desafio: Validação de Parênteses 
-
-## **Desafio**
+## **Desafio**: Validação de Parênteses 
 
 Dada uma string com apenas os seguintes caracteres '(', ')', '{', '}', '[', ']' determine se uma determinada string é válida. 
 
@@ -55,12 +50,11 @@ A saída corresponde a um valor Booleano como no exemplo abaixo:
 |     ( )     |   true    |
 |     [ )     |   false   |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Dominando%20Algoritmos%20Intermedi%C3%A1rios%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-intermediarios/src/validacao/ValidParentheses.java)
 
 ------
 
-##### Desafio: Quadrados Perfeitos
-## **Desafio** 
+## **Desafio**: Quadrados Perfeitos 
 
 Dado um inteiro n, retorne o menor número de números quadrados perfeitos cuja soma seja n. Um quadrado perfeito é um inteiro que é o quadrado de um inteiro; em outras palavras, é o produto de algum inteiro consigo mesmo. Por exemplo, 1, 4, 9 e 16 são quadrados perfeitos, enquanto 3 e 11 não são. 
 
@@ -80,14 +74,11 @@ A saída consiste em retornar o menor número de números quadrados perfeitos.
 |         13         |        2         |
 |         10         |        2         |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Dominando%20Algoritmos%20Intermedi%C3%A1rios%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-intermediarios/src/quadrados/perfeitos/Desafio.java)
 
 ------
 
-
-##### Desafio: Classificando Matrizes
-
-## **Desafio**
+## **Desafio**: Classificando Matrizes
 
 Dado um array inteiro `nums`, mova todos os inteiros pares no início do array seguido por todos os inteiros ímpares.
 
@@ -108,13 +99,11 @@ A saída deverá retornar todos os valores pares para o começo do array, seguid
 | :-------: | :-----: |
 | 4 3 1 2 4 | 2 4 3 1 |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Dominando%20Algoritmos%20Intermedi%C3%A1rios%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-intermediarios/src/matrizes/Main.java)
 
 ------
 
-##### Desafio: Fatorial Desajeitado
-
-## **Desafio**
+## **Desafio**: Fatorial Desajeitado
 
 O fatorial de um número inteiro positivo N é o produto de todos os inteiros positivos menores ou iguais a n. Fazemos um fatorial desajeitado usando os inteiros em ordem decrescente, trocando as operações de multiplicação por uma rotação fixa de operações cuja ordem é: multiplicar '*', dividir '/', adicionar '+' e subtrair '-'. Por exemplo, desajeitado(10) = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1. Lembre-se que no fatorial desajeitado as operações ainda são aplicadas usando a ordem usual de operações aritméticas. Além disso, a divisão neste caso sempre resulta em um número inteiro, por exemplo, 90 / 8 = 11. Dado um inteiro N, retorne o fatorial desajeitado de n.
 
@@ -142,7 +131,7 @@ Explicação: 7 = 4 * 3 / 2 + 1
 
 Explicação: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Dominando%20Algoritmos%20Intermedi%C3%A1rios%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-intermediarios/src/fatorial/ConsoleApp1.java)
 
 
 
