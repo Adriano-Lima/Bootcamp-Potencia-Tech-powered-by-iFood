@@ -1,6 +1,5 @@
-# Desafio de Projeto sobre Git/GitHub da DIO
-
-#### Repositório criado para o primeiro desafio de Projeto.
+# Desafio: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso
+#### Primeiro Desafio do BootCamp Potência Tech powered by IFood
 
 ##### Minha evolução: 
  

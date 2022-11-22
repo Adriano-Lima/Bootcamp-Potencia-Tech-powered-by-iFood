@@ -1,15 +1,15 @@
-<h1> Desafio: Aprenda na Prática Programação Orientada a Objetos</h1>
+# Desafio: Abstraindo um Bootcamp Usando Orientação a Objetos em Java 
+#### Segundo Desafio do BootCamp Potência Tech powered by IFood
 
-<p> Sejam bem-vindos ao desafio: <strong>APRENDENDO NA PRÁTICA O PARADIGMA DE ORIENTAÇÃO A OBJETOS.</strong><br>Desafio este que tive a honra de co-criar com a plataforma de cursos online <strong><a href="https://web.digitalinnovation.one/">DIGITAL INNOVATION ONE</a></strong> 💛🧡 e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.<br>
-    💎 O objetivo principal é colocar em prática umas das principais ferramentas da OO: <strong>ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO,</strong> através de um projeto Java. </p>
+<p> O objetivo principal deste desafio é colocar em prática umas das principais ferramentas da OO: <strong>ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO,</strong> através de um projeto com a linguagem de programação Java. </p>
 
 
 
 <h2>🛑 Pré-Requisitos</h2>
 
 <p>
-✅ Conhecer a sintaxe da Java<br>
-✅ Java JDK 11<br>
+✅ Conhecer a sintaxe da linguagem de programação Java<br>
+✅ Java JDK 17<br>
 ✅ IDE para desenvolvimento Java (utilizei IntelliJ)<br>
 ✅ Git<br>
 ✅ Conta no GitHub<br>
@@ -20,7 +20,7 @@
 
 <p>
 <strong>	1.</strong> ABSTRAINDO o DOMÍNIO Bootcamp e MODELANDO seus ATRIBUTOS E MÉTODOS <br>
-<strong>	2.</strong> Criando as CLASSES: Bootcamp, Cursos, Mentorias e Devs e vamos relaciona-las <br>
+<strong>	2.</strong> Criando as CLASSES: Bootcamp, Cursos, Mentorias e Devs relacionando-as <br>
 <strong>	3.</strong> As CLASSES Curso, Mentoria e Devs também foram MODELADAS, ou seja, criados seus ATRIBUTOS E MÉTODOS <br> 
 <strong>	4.</strong> Para que o código fique mais legível e de fácil manutenção, foram utilizadas algumas das ferramentas que o PARADIGMA DE ORIENTAÇÃO A OBJETOS (POO) nos oferece: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO <br>
 <strong>	5.</strong> E para representar CLASSES que foram criadas e relacionadas, as mesmas foram transformadas em OBJETOS<br>
@@ -137,7 +137,8 @@ Vejamos alguns Subparadigmas do Paradigma Declarativo e exemplos linguagens de p
 
 <p>
 Este repositório foi criado para fins de estudo. <br>
-O desafio e material de apoio, foram disponibilizados pela instrutora Camila(https://github.com/cami-la/desafio-poo-dio).
+O desafio e os materiais de apoio, foram disponibilizados pela instrutora Camila(https://github.com/cami-la/desafio-poo-dio).
+</p>
 
 
 

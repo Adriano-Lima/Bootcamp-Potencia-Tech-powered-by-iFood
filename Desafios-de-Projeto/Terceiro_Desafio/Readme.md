@@ -1,4 +1,4 @@
-# Explorando Padrões de Projetos na Prática com Java
+# Desafio: Explorando Padrões de Projetos na Prática com Java
 ## Terceiro Desafio do BootCamp Potência Tech powered by IFood
 
 Este repositório foi criado para fins de estudo, com as implementações dos padrões de projeto explorados no Lab "Explorando Padrões de Projetos na Prática com Java". Explorou-se alguns padrões usando o Spring Framework e de forma "pura", são eles:
