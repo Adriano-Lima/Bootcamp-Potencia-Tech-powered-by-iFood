@@ -1,4 +1,13 @@
 # Dominando Algoritmos Básicos com Desafios de Código Java
+
+## 🛑 Pré-Requisitos
+
+<p>
+✅ Conhecer a sintaxe da linguagem de programação Java<br>
+✅ Java JDK 17<br>
+✅ IDE para desenvolvimento Java (utilizei IntelliJ)<br>
+</p>
+
 ## Entenda o Objetivo de cada Desafio:
 
 
