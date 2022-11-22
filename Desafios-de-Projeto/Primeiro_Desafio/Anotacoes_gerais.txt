@@ -1,0 +1,744 @@
+Introdução ao desenvolvimento moderno de software
+	ux design (comportamento)
+		design da experiência do usuário
+		visa melhorar a satisfação do usuário
+		melhorando a usabilidade, acessibilidade
+		onde estarão os elementos, qual o caminho para realizar um processo
+		ferramentas: figma
+	
+	ui design (aparência)
+		designer de interface 
+		criar o que o usuario ira ver e utilizar
+		define o tipo de fonte, de cor, layouts  		
+
+	front-end
+		é o que programa a parte visual de um site ou app
+		tudo que conseguimos interagir
+		desenvolver uma interface gráfica
+
+	framework
+		é de forma básica um facilitador 
+		traz diversas soluções já pré-definidas, que descomplicam o desenvolvimento
+		ex: Angular, Vue, Spring (Java)
+
+	back-end
+		desenvolve o que tem por trás de uma aplicação
+		ponte entre os dados que vem do navegador ou app (cliente) rumo ao banco de dados e vice-versa, aplicando as devidas regras de negócio, validações e garantias 
+		API (Interface de Programação de Aplicativos - Application Programming Interface)
+
+	full stack
+		desenvolver uma aplicação de ponta a ponta
+		desenvolvedor que trabalha com o front e back-end
+		deve ter habilidades em uma ampla variedade de linguagens de programação
+
+	Quality Assurance (QA)
+		analisar a qualidade de um código
+		entregar aos consumidores um produto ou serviço com alta qualidade 
+
+	infraestrutura
+		servidor local 
+		nuvém plubica (cloud), sistemas de armazenamento de dados disponibilizados via internet 
+			preço, facilidade de contratação, escalabilidade, performance
+
+	mobile 
+		Android, IOS
+		nativo
+		hibrido (web e mobile)
+
+Introducao a programação e pensamento computacional
+	- pensamento computacional -
+		decomposicao (dividir um problema em subproblemas)
+		reconhecimento de padrões (encontrar similaridades e diferenças entre os problemas)
+		abstração (do conceito para uma forma generalista)
+		design de algoritmos (definir o passo a passo do problema)
+
+		habilidades
+			raciocinio logico (pensamento estruturado)
+				indução, dedução, abdução
+			aperfeiçoamento 
+
+	- lógica de programação -
+		solucionar algum problema
+		organização coesa
+		ordenação que segue convenções
+		forma de raciocinio
+		organizar e planejar as instruções para viabilizar a implatação de um programa 
+
+		tecnica linear
+			execucao sequenciada
+		
+		tecnica estruturada
+		
+		tecnica modular
+			simplificar, decompor, verificar por módulo
+			dados de entrada -> processo de transformação -> dados de saida 			
+
+	- fundamentos de algoritmos- 		
+		variável pode ser de: ação ou controle
+
+		funções
+			subprograma, subalgoritmo, bloco, método
+			modularização do programa 
+			altera do estado do programa
+			reutuilização de código
+			
+
+	- linguagens de programação -
+		assembly -> linguagem de máquina, montagem 
+		
+		linguagens de alto nivel surgiram na decada de 90
+
+		linguagem de programação: método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um codigo fonte
+
+		código fonte: pode ser traduzido ou interpretado
+
+		linguagem de alto nivel -> compilador (executa uma analise do programa) -> linguagem de máquina 
+		programa fonte -> programa objeto
+
+		interpretação-> programa fonte é executado diretamente 
+
+		caracteristicas de um programa, diretrizes: legibilidade (facil leitura), redigibilidade (facilidade de escrita), confiabilidade (faz o que foi feito pra fazer), custo (análise de impacto) 	
+
+		paradigma de programação: formas de resolução de problemas, ex: orientação a objetos, procedural, funcional, lógico
+
+Introdução ao Git e GitHub		
+	sha1 algoritmo de hash, encriptação
+		gera um conjunto de caracteres identficador de 40 caracteres
+
+	objetos fundamentais: blobs, trees, commits
+	blob: contém metadados do git e o sha do arquivo
+	tree: armazenam blobs, apontando para eles e o nome dos respectivos arquivos
+	commit: aponta para uma árvore (tree), para um parente, para um autor, msg, timestamp
+
+	chave ssh e tokens:
+		ssh-keygen -t ed25519 -C email
+		cat id_ed25519.pub (adicionar/salvar no github)
+		eval $(ssh-agent -s)
+		ssh-add id_ed25519
+	
+	definir as configurações de usuário:
+		git config --global user.email "email"
+		git config --global user.name 	
+
+	principais comandos: init, add, commit, push, pull  
+		git init -> cria um repositório local
+	
+	working directory -> stage area -> local repository	
+	tracked: são os arquivos rastreados
+		unmodified, modified, staged (se preparando para fazer parte de um commit)
+		untracked: git ainda não sabe da existencia do arquivo	
+	
+	git add *
+	
+	git commit -m "mensagem"
+
+	git status		
+
+	para resetar as configurações:
+		git config --global --unset user.email
+
+	subir: git push origin master
+		origin: apelido do link do repositorio no github
+
+	conflito de merge:
+		mudanças na mesma linha
+
+	puxar: git pull origin master 
+
+
+			 	
+
+Introdução a plataforma Java
+	Java: é composta por um conjunto bem denido de funcionalidades (features)
+	menos complexa que liguagens anteriores
+	orientada a objetos, tudo é escrito em termos de classes e objetos
+	classes e objeto, encapsulamento, abastração, herança, polimorfismo
+	tem o objetivo de funcionar em qualquer plataforma
+	WORA (Write Once Run Anywhere)
+	compilada para bytecode e depois interpretada pela JVM
+	multi-thread
+
+	Ambiente de Desenvolvimento Java
+		IDE
+		depuracao -> acompanhamento de execucao do programa
+		Maven: ferramenta de automação de compilação 
+
+Aprendendo a Sintaxe Java
+	nome de classe: primeira letra maiuscula
+	{} -> corpo
+	arquivo .java deve começar com letra maiuscula		
+	a classe deve possuir o mesmo nome do arquivo
+	nome de variável: deve começar com minusculo, 
+		mas se for composta as demais deve ser maiuscula
+		se for uma constante, toda em maiusculo
+		simbolos permitidos: _ , $ e numeros de 0 a 9
+		deve comecar com letra (convencao)
+
+		Tipo nomeBemDefinido = atribuição
+
+	método: TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+	identar: escrever o código do programa de forma hierárquica, facilitado assim a visualização e entendimento do programa
+
+	arquivos (.java) devem ser organizados em pacotes
+	ex nome de pacote: edu.adriano.primeirasemana	
+		cada . indica que o nome subsequente ao ponto é uma subpasta da anterior (edu tem dentro dela uma pasta adriano que dentro dela tem uma chamada primeirasemana)
+
+	Java Beans: iniciativa conceitual de escrita, algoritmos legíveis a níveis de serem compreendidos por todo time
+
+	tipos primitivos: int, byte, short, long, float, double, boolean e char não são considerados objetos, representam valores brutos 
+
+	constantes: final Tipo nomeConstante (todo em caixa alta) = Atribuição
+
+	operadores:
+		simbolos especias que tem um significado proprio para a linguagem e estão associados a determinadas operações
+		
+		atribuição = 
+		aritméticos:  + - * / %
+		
+		operador unário: incrementar (numero++ ou ++numero), decrementar (numero--), inverter valor 
+
+		ternário (?:):
+			forma resumida para definir uma condição e escolher por um dentre dois valores
+			<expressão condicional> ? <caso condicao seja true> : <caso condicao seja false>
+
+		relacionais:
+			avaliar a relação entre duas variaveis ou expressoes	
+			== != > >= < <= 
+			para objetos .equals()
+
+		lógicos:
+			permite criar expressoes logicas maiores a partir da juncao das duas 
+			&& || 
+
+	métodos:
+		deve ter uma unica responsabilidade 
+		todo metodo deve ser escrito dentro de uma classe, não tem global
+	
+	escopo:
+		pode ser entendido como ambiente onde a variavel pode ser acessada				
+
+	palavras reservadas:
+		são identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizadas para nomear variáveis ... 
+		Java possui 52 
+
+	tags (documentacao, as tags ficam  detro de um comentário):
+		representam dados relevantes para compreensao da proposta de uma classe, seus metodos e atributos
+		@autor, @version, @since, @param, @return, @throws  
+		// comentario de uma linha
+		/* */ varias linhas
+		/** */ para documentacao
+
+	terminal
+		passar parametros pela IDE
+		launch.json
+			"args":[
+			"nome",
+			"sobrenome",
+			"idade",
+			"altura"
+			]
+
+	Scanner
+		fazer a leitura de dados via leitura do teclado
+
+Lógica Condicional e Controle de Fluxos em Java
+	operadores relacionais
+		utilizados para comparação, tipos: similaridade e tamanho
+		não se pode utilizar o tipo tamanho em string e boolean
+		nao da pra comprar string com char
+		mas pode comparar char com números
+
+	operadres logicos	
+		tipos: conjuncao - and logico(&&), disjuncao - or (||), disjuncao exclusiva - xor (^), negacao (!)
+			conjuncao: só é verdadeira quando ambos sao vdd
+			disjuncao: só é falso quando ambos os operadores sao falsos
+			disj. exclusiva: só é verdadeira quando ambos os operandos ou expressoes são opostos
+			negacao: inverte o valor logico de operando ou expressao 
+
+	controle de fluxo		
+		sao estrtuturas q tem a capacidade de direcionar o fluxo de execucao do codigo
+		tipos: decisao, repeticao, interrupcao
+			decisao: avalia uma condicao booleana 
+			if, switch, e operador ternário (?)
+
+	blocos
+		um grupo de 0 ou mais codigos quais trabalham em conjunto para executar uma operacao		
+		tipos: locais {}, estáticos, instância
+
+Estruturas de Repetição e Arrays em Java
+	cada repeticao é chamada de laço
+	uma estrtura de repeticao permite que uma sequencia de comandos seja executada repetidamente caso determinadas condicoes sejam satisfeitas
+	teste no inicio (while)
+	no final (do-while)
+	contada	(for)
+
+	array: um obj utilizado para armazanar sequencialmente dados do mesmo tipo
+		permanece com o mesmo tamanho depois de criado
+		unidimensional, multidimensional
+		int[] vetor = {-5, -6, 15, 50, 8, 4};
+		int[] vetor = new int[20];
+	
+	for each
+			variavel de iteracao: array
+		for(String consoante: consoantes){
+
+		}	
+	
+	gerar numeros aleatorios:
+		Random random = new Random();
+		numero = random.nextInt(100); (limite)
+
+ 	exercicios:
+ 		https://github.com/cami-la/loops-e-arrays
+
+Entendendo Métodos Java
+	criacao de metodos
+	uma porcao de codigo que e disponibilizada por uma classe, executado quando é feita uma requisicao <?visibilidade?> <?tipo?> <?modificador?> retorno
+	nome (<?parametros?>)<?exceções?> corpo
+		V: "public", "protected" ou "private"
+		T: concreto ou abstrato
+		M: "static" ou "final"
+		R: tipo de dado ou "void"
+		N: nome que é fornecido ao método
+		P: parâmetros que pode receber
+		E: exceções que pode lançar
+		C: código que possui ou vazio
+	
+	assinatura: nome + parametros ( os tipos dos parametros)
+	
+	sobrecarga
+		"É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome".
+
+	retornos:
+		é uma instrução de interrupção
+		return
+		O método executa seu retorno quando:
+			• Completa todas suas instruções internas
+			• Chega a uma declaração explicita de retorno
+			• Lança uma exceção	
+
+Programação Orientada a Objetos			
+	paradigma estruturado mais simplista
+		foco em: como fazer
+	paradigma orientando a objeto mais realista
+		foco em: o que fazer
+
+	fundamentos: abstracao, resuso, encapsulamento
+
+	estrutura:
+		classe, atributo, metodo, objeto, mensagem
+
+	atributo: definir sua estrutura de dados (caracteristicas)
+
+	metodo: porcao de codigo disponibilizada pela classe, executado quando feita uma requisicao, identifica quais serviços/acoes uma classe oferece (comportamento)
+		especiais: construtor, destrutor
+
+	mensagem: processo de ativação de um metodo de um objeto
+		carro.<metodo> ou Carro.<metodo>
+
+	relacoes: herança, associacao, interface
+		heranca nao e só pra resuo, mas para criar subtipos
+			herança simples: a classe filha tem uma mae
+			herança multipla: tem uma ou mais classes mae (Java nao tem)
+			upcast (subindo na hierarquia) , downcast (descendo na hierarquia)
+				Funcionario gerente = new Gerente(); //upcast filha transforma na mae
+				Vendedor vendedor = (Vendedor) new Funcionario(); // mae transforma na filha (nao funciona/roda no Java)
+
+			polimorfismo:
+				a mesma acao se comportando diferente (sempre)
+			
+			sobrescrita:
+				pode se comportar de forma diferente
+
+		associacao: estrutural ou comportamental
+			estrutural (nos atributos): composicao (parte todo), agregacao (sem parte todo)			
+			comportamental (nos métodos): dependencia (depende de)
+
+		interface:
+			define um contrato que deve ser seguido por uma classe que a implementa
+				interface A {}
+				class B implements A {}
+
+		pacotes:
+			são uma organização fisica ou logica criada para separar classes com responsabilidades distinas
+
+		visibilidades
+			modificador de acesso atua sobre classe, atributo e metodo
+			private (somente na classe), protected (mesma classe pacote e subclasses), public (em qualquer lugar)
+
+Trabalhando com CollectionsJava
+	collection:
+		um objeto que agrupa multiplos elementos
+		armazena e processa conjunto de dados de forma eficicente
+
+	interface list	
+		permite elementos duplicados e garante ordem de inserção
+		*Arraytist deve ser usado onde mais de pesquisa são necessárias, e LinkedList deve ser usado onde mais de inserçso e exclusao Ao necessárias."
+	
+	interface set
+		não permite elementos duplicados
+		nao possui índice
+		para ter um conjunto na mesma ordem de inserção usar o -> LinkedHashSet
+		para ter um conjunto ordenado usar o -> TreeSet
+
+	minhaClasse implements Compareble -> compareTo()
+
+	class meuComparator implements Comparator<Classe>{}
+
+	interface map:
+		elementos unicos (key) para cara valor (value)
+		hashmap -> random 
+		LinkedHashMap -> ordenado de acordo a insercao
+		Treemap -> ordem natutal pela key
+
+	classe anonima:
+		classe que nao recebeu um nome e é declarado e instanciado em uma unica instucao
+
+	functional interface
+		qualquer interface com um SAM
+		tem apenas um metodo abastrato
+
+	lambda
+		funcao sem declaracao, nao é necessario colocar nome, um tipo de retorno e o modificar de acesso
+		(argumento) -> (corpo)
+		"simplificar uma classe anonima"
+
+	reference method
+		permite referencia a um metodo ou construtor de uma classe
+		"::"
+		forma de simplificar uma expressao lambda 
+
+	streams api
+		opção para manipulação de colecoes em java seguindo os principios da programacao funcional
+		source -> pipeline -> terminal		
+
+Debugging
+	erros de programacao sao denominados de bug, o processo de encontrar e corrigir os bugs é chamado de depuracao ou debugging
+	
+	erros de sintaxe, erros de semantica (erro na lógica do código)
+
+Tratamento de Exceções em Java
+	excecao é um evento que interrompe o fluxo normal do processamento de uma classe 
+	com o tratamento de excecoes, o programa pode continuar executando depois de lidar com o problema
+	
+	error (problema de recurso do programa)
+	
+	unchecked (podem ser evitados se forem tratados e analisados pelo dev, erros de lógica)
+		
+	checked (DEVEM ser evitados e tratados pelo desenvolvedor para o programa funcionar, o compilador já acusa o erro) 
+	
+	try, catch, finally
+
+	throws: Declara que um método pode lançar uma ou várias exceções.	
+
+Principais Protocolos de Comunicação da Internet
+	protocolo http (Hypertext Transfer Protocol)
+		protocolo de comunicação entre servidor e cliente 
+		stateless, um nao guarda o estado do outtentity headerro
+		
+		mensagens http tipos: request e response
+		
+		serializacao comunicacao metadados -> xml, json
+		
+		tcp -> transmission control protocol 
+			persistente e nao persistente 
+		
+		metodos http: get, head, post, put, delete, trace, option, connect, path
+		
+		cookies -> Pequenos pedaços ou blocos de dados criados e utilizados pelo servidor para persistir dados no dispositivo do cliente.	
+			de sessao, persistente
+
+		cache -> reducao de tempo e tráfego
+
+		servidores http: Apache, NGINX, XAMPP
+
+		criptografia
+			chave assimétrica
+				chave privada (assinatura - criptografia) e chave pública (verificaçao de autenticidade)
+			chave simétrica
+				chave privada única
+		
+		ssl funciona em cima do tcp, protocolo de segurança
+				
+		websocket
+			conexao bi-direcional
+			roda encapsulado no http
+			voltada para aplicações de tempo real
+			handshake 2 
+
+
+Gerenciamento de Dependências e Build em Java com Maven
+	ferramenta para gerenciar build e depencias de um projeto
+	empacotar, compilar 
+	Endereça como o software foi construído e suas dependências através do POM(Project Object Model)
+	comandos:
+		compile (compilar as classes), test (testar a aplicacao), package (empocar a aplicacao, criar o jar), clean (limpar o diretorio de trabalho, pasta target)
+	 
+	 mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archtype-quickstart -DinteractiveMode=false
+	 
+	archetype é um template, um para cada finalidade
+
+	POM:
+		POM — Project Object Model
+		Unidade fundamental de trabalho 
+		Formato XML
+		Detalha o projeto
+		Detalha como construir o projeto
+		Maven sempre procura pelo pom.xml para realizar sua execução
+	
+	para funcionar temos que detalhar essas configuracoes:
+	<project>
+		<modelVersion></modelVersion>
+		<groupId> </groupId>
+		<artifactId> </artifactId>
+		<version> </version>
+	</project>	
+	
+	repositorios:
+		São locais onde podemos encontrar plugins e bibliotecas que o Maven provê
+		tipos: local e remoto
+	
+	mvn install
+		publica localmente o componente
+
+	ver o classpath	
+		mvn dependency: build—classpath —Dinc1udeScope=compi1e
+		mvn dependency:build—classpath —Dinc1udeScope=test
+		mvn dependency:build—classpath —Dinc1udeScope=runtime
+
+	ciclos de vida
+		default lifecycle
+		clean lifecycle
+		site lifecycle
+
+	multi-modulos
+		mvn archetype:generate -DgroupId=one.digital.inovation -DartifactId=project-parent -Darchetype=maven-quick-start
+
+		mvn archetype:generate -DgroupId=one.digital.inovation -DartifactId=core -DinteractiveMode=false
+
+	puglins:
+		A maioria das funcionalidades são providas por
+		plugins
+		exs: eclipse, jacoco, ear, war, compile, clean, javadoc
+		mvn plugin-name:goal-name (tarefa)
+
+
+Imersão no Spring Framework com Spring Boot
+	Framework open source desenvolvido para a plataforma Java baseado nos padrões de projetos inversão de controle e injeção de dependência.
+	
+	composta por modulos afim de reduzir a complexidade
+
+	Ioc: trata-se do redirecionamento do fluxo de execução de um código retirando parcialmente o controle sobre ele e delegando-o para um container.
+
+	Injeção de dependência é um padrão de desenvolvimento com a finalidade de manter baixo o nível de acoplamento entre módulos de um sistema.
+
+	beans: objeto que é instanciado montado e gerenciado pelo container
+
+	autowired: uma anotacao onde devera ocorrer uma injecao
+		byNme, byType, byConstructor
+
+	Springboot
+		foca na configuracao automática
+		focar na produtividade
+		starters:
+			descritores de dependencia
+			ex: data-jpa, data-mongodb, web, web-services, test
+
+		component: quando tenho acesso ao codigo fonte	
+		bean: quando for externo
+
+	application.properties
+		@Value("${nome}")
+		@Value("${nome:Valor padrao}")
+			em application.properties
+				nome = Nome Teste
+
+	ORM
+		Mapeamento de objeto-relacional, aproximar o POO ao contexto de banco de dados relacional
+		mapeamento de objeto para tabela por biblioteca ou framework
+
+	JPA
+		especificação baseada em interfaces, que através de um framework realiza operações de persistência de objetos em Java.  
+		descritor a especificacao 
+
+
+Criando uma APIREST Documentada com Spring Web e Swager
+	disponbilizar recursos na convencao rest que os clientes vao obter respotas no forma json
+
+	Uma API (interface application program) é um código programável que faz a "ponte" de comunicação entre duas aplicações distintas.
+
+	A API REST (representational state transfer) é como um guia de boas práticas e RESTful é a capacidade de determinado sistema aplicar os princípios de REST.
+
+	Um controller é um recurso que disponibiliza as funcionalidades de negócio da aplicação através do protqcolo HTTP.
+
+	Um Rest Controller em Spring nada mais é que uma classe contendo anotações específicas para a disponibilização de recursos HTTPs baseados em nossos serviços e regras de negócio.
+
+
+Deixando Seu LinkedIn Atrativo
+	1 url publica e customizada
+	2 capa de perfil (imagem acima da foto)
+		ser leve, e que nao te venda
+	3 foto profissional 
+		nao pode ser infantilizada, cuido com a roupa, deve passar uma boa imagem 
+	Headline
+		Titulo do perfil, cabeçalho
+		primeira impressao 
+			usar 3 ou 4 palavras que representa o que vc faz
+				"Desenvolvedor Java"
+			use 3 ou 4 tecnologias que conhece/utiliza
+				"Java", "API Rest", 
+			o quanto vc é diferenciado 
+				"Apaixonado por tecnologia"	
+			Certificações e graduações
+	apresentação e skills
+		sobre vc (about)
+		skills
+			habilidades ou competencias
+
+	experiencias profissionais
+
+	educação
+		colocar cursos que sao relevantes
+
+	licenças e certificações
+		certificados da DIO por exemplo
+
+	recommendations
+		de pessoas
+		pode-se dar e receber recomendações
+
+
+Trabalhando em Equipes Ágeis 
+	ágil
+		facilidade de aprender e adaptar
+		ser agil não é necessariamente mais rápido
+		rápido e eficiente
+	
+	1 Indíviduos e Interações, mais que processos e ferramentas
+	2 Software em funcionamento, mais que documentaçao abrangente
+	3 Colaboraçao com o cliente, mais que regociaçbo de contratos
+	4 Responder a mudanças, mais que seguir um plano		
+
+	12 principios
+
+	Mundo é: VUCA (volatio, incerto,complexo,ambiguo)
+
+	processo
+		sempre tem o mesmo resultado
+		é repetitivo
+
+	projeto
+		tem inicio e fim definidos
+		fim exclusivo
+		esforço temporário
+
+	modelo tradicional
+		cascata
+		etapas bem definidas, em passo a passo
+		valor entregue no final
+
+	modelo ágil		
+		possui ciclos (sprints)
+		com entregaveis ao longo dos ciclos
+		iterativo e incremental
+		feedback
+		valor entregue continuamente
+
+	metodos ageis	
+		Framework Scrum
+			empirismo (base no que e observado), lean thiking (linha de pensamento, melhoria continua, evitar desperdicio)
+			pilares: TIA transparencia, inspeção, adaptação
+		Extreme Programming (XP)
+			metodo agil criado para desenvolcimento de software
+			interação próxima com os clientes, testagem constante e ciclos de desenvolvimento curtos.
+			Planeja -> faz -> testa -> melhora -> planeja ...
+		Kanban
+			definir, gerenciar e melhorar serviços que entregam trabalho de conhecimento
+			Toyota
+			gestao de tarefas (quadro: to do, doing, done)
+		OKR
+			objetivos resultados chaves
+			objetivos estrategicos de uma empresa
+			descricoes qualitativas
+			kR's -> metas (quantitativo)
+			
+Transformando seu Conhecimento em Artigos Técnicos	
+	neuroassociacao
+		Esse termo refere-se às associações que fazemos no nosso cérebro entre eventos externos e estados emocionais.
+		conectar ideias de forma lúdica
+	
+	brainstorming
+		tempestade de ideias
+
+	headline
+		título, algo chamativo
+		gerar desejo
+		usar gatilhos mentais
+		explorar resultados
+		transmitir de segurança
+		dar uma solução definitiva
+
+	pesquisa	
+		seja curioso
+
+	StoryTelling
+		contando uma história
+
+	tornar ludico
+		imagens, links, código fonte ...
+
+
+
+	As hard skills também chamadas de habilidades técnicas, são especificas da função profissional. Elas referem-se ao conhecimento e às habilidades relacionadas ao trabalho que alguém desempenha, relevantes para cada cargo e nivel de senioridade. Essas habilidades são desenvolvidas através cursos, treinamentos e experiência profissional.
+
+	As soft skills, por outro lado, são as qualidades pessoais que ajudam os funcionários a realmente prosperarem no local de trabalho. Aqui falamos sobre o padrão de conduta das pessoas.				
+	
+
+	soft skills
+		1. Resolução de Problemasl
+		2. Boa comunicação
+		3. Criatividade
+		4. Inteligência Emocional
+		5. Adaptabilidade
+		6. Pensamento analítico
+		7. Resiliência, tolerância e flexibilidade
+		8. Persuasão e negociação
+		9. Colaboratividade/Trabalho em Equipe
+		10. Aprendizado ativo
+		11. Saber ouvir	
+
+	Lifelong Learning
+		autodesenvolvimento
+		sempre se atualizando
+		continuidade ao nosso aprendizado
+		aprendizes contínuos
+
+	pitch pessoal
+		discurso a respeito de si mesmo
+		autopromoção
+		se vender		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+
+
+
+
+
+		

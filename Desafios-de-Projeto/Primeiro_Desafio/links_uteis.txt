@@ -1,0 +1,9 @@
+Portugol
+	site para criar e executar códigos em Portugol: portugol: https://portugol-webstudio.cubos.io/ide
+
+Markdown
+	guia: https://www.markdownguide.org/basic-syntax/	
+
+
+Curos Java:
+	https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r	
