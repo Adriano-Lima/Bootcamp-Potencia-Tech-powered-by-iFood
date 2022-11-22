@@ -10,9 +10,7 @@ public class Desafio {
         A = leitor.nextInt(); //fazendo a leitura da primeira entrada e atribuindo a variavel local
         B = leitor.nextInt(); //fazendo a leitura da segunda entrada e atribuindo a variavel local
 
-        if(A == B) // comparando se os valores sao iguais
-            System.out.println("Sao iguais!");
-        else
-            System.out.println("Nao sao iguais!");
+        String teste = (A == B)? "Sao iguais!": "Nao sao iguais!";
+        System.out.println(teste);
     }
 }

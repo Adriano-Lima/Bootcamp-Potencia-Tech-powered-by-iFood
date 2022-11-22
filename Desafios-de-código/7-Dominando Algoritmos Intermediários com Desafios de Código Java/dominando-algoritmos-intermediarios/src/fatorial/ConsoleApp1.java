@@ -4,8 +4,12 @@ import java.util.*;
 
 public class ConsoleApp1 {
     public static void main(String[] args) {
-        int n = Integer.parseInt(new Scanner(System.in).nextLine());
-        System.out.println(calcularFatorial(n));
+        try {
+            int n = Integer.parseInt(new Scanner(System.in).nextLine());
+            System.out.println(calcularFatorial(n));
+        } catch (NumberFormatException e){
+            System.out.println("Deve-se digitar um número");
+        }
     }
 
     private static Integer calcularFatorial(Integer n) {
