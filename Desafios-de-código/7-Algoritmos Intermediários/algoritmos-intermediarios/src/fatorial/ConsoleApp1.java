@@ -93,5 +93,38 @@ public class ConsoleApp1 {
 
 }
 
+/* 
+public class ConsoleApp1 {
+    public static void main(String[] args) {
+        try {
+            int N = Integer.parseInt(new Scanner(System.in).nextLine());
+            System.out.println(calcularFatorialDesajeitado(N));
+        } catch (NumberFormatException e){
+            System.out.println("Deve-se digitar um número");
+        }
+    }
 
+    private static Integer calcularFatorialDesajeitado(Integer N) {
+        int soma = 0;
+        int tmp = N;
+        if (N <= 1) {
+            return 0;
+        }
+        while (N > 0) {
+            if (N > 1)
+                N--;
+            tmp *= N;
+            N--;
+            if (N > 0) {
+                tmp /= N;
+                N--;
+                tmp += N;
+            }
+            soma += tmp;
+            tmp = -(--N);
+        }
+        return soma;
+    }
+}
 
+*/
