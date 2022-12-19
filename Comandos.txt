@@ -1,0 +1,11 @@
+Comandos
+
+
+criar um projeto com Maven:
+	mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archtype-quickstart -DinteractiveMode=false
+
+executar um projeto Maven via linha de comando:
+	entrar na pasta do projeto
+	java -jar target/nome.jar
+
+	
