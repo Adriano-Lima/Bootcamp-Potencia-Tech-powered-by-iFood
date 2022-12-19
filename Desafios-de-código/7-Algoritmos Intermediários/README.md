@@ -29,7 +29,7 @@ Para cada String informada, terá uma saída de valor Booleano: TRUE, caso a pal
 |       digital       |       FALSE       |
 |         ana         |       TRUE        |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Algoritmos%20Intermedi%C3%A1rios/algoritmos-intermediarios/src/palindromo/Desafio.java)
 
 ------
 
@@ -55,7 +55,7 @@ A saída corresponde a um valor Booleano como no exemplo abaixo:
 |     ( )     |   true    |
 |     [ )     |   false   |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Algoritmos%20Intermedi%C3%A1rios/algoritmos-intermediarios/src/validacao/ValidParentheses.java)
 
 ------
 
@@ -80,7 +80,7 @@ A saída consiste em retornar o menor número de números quadrados perfeitos.
 |         13         |        2         |
 |         10         |        2         |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Algoritmos%20Intermedi%C3%A1rios/algoritmos-intermediarios/src/quadrados/perfeitos/Desafio.java)
 
 ------
 
@@ -108,7 +108,7 @@ A saída deverá retornar todos os valores pares para o começo do array, seguid
 | :-------: | :-----: |
 | 4 3 1 2 4 | 2 4 3 1 |
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Algoritmos%20Intermedi%C3%A1rios/algoritmos-intermediarios/src/matrizes/Main.java)
 
 ------
 
@@ -142,7 +142,7 @@ Explicação: 7 = 4 * 3 / 2 + 1
 
 Explicação: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1
 
-- [Clique aqui para acessar o Código.]()
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/7-Algoritmos%20Intermedi%C3%A1rios/algoritmos-intermediarios/src/fatorial/ConsoleApp1.java)
 
 
 

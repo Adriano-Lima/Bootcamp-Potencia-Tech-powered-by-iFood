@@ -29,7 +29,7 @@ A saída deverá retornar a frase "Sao iguais!" caso A e B sejam o mesmo valor. 
 |         50 50          |     Sao iguais!      |
 |         38 90          |   Nao sao iguais!    |
 
-- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/numeros/iguais/Desafio.java)
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Algoritmos%20B%C3%A1sicos/algoritmos-basicos/src/numeros/iguais/Desafio.java)
 ------
 
 ## **Desafio**: Somando múltiplos
@@ -56,7 +56,7 @@ A saída deverá retornar o valor da soma de todos os múltiplos A até o seu li
 | :-----: | :---: |
 |  3 18   |  63   |
 
-- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/somando/multiplos/Main.java)
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Algoritmos%20B%C3%A1sicos/algoritmos-basicos/src/somando/multiplos/Main.java)
 
 ------
 
@@ -79,7 +79,7 @@ Será  impresso o **somatório** de **N** até **0**, como no exemplo a baixo:
 |         15         |       120        |
 
 
-- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/chamada/recursiva/Main.java)
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Algoritmos%20B%C3%A1sicos/algoritmos-basicos/src/chamada/recursiva/Main.java)
 ------
 
 ## **Desafio** : FizzBuzz
@@ -105,7 +105,7 @@ Retorne a palavra correta de acordo com o seu múltiplo. Caso o valor não seja 
 |           15           |       FizzBuzz       |
 |           4            |          4           |
 
-- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/fizzbuzz/Desafio.java)
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Algoritmos%20B%C3%A1sicos/algoritmos-basicos/src/fizzbuzz/Desafio.java)
 ------
 
 ## **Desafio**: Busca Sequencial 
@@ -144,7 +144,7 @@ A saída será a a posição do elemento no array, caso o valor não se encontre
 |           4            | Numero 4 nao encontrado! |
 
 
-- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java/dominando-algoritmos-basicos/src/busca/sequencial/BuscaSequencial.java)
+- [Clique aqui para acessar o Código.](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/blob/main/Desafios-de-c%C3%B3digo/4-Algoritmos%20B%C3%A1sicos/algoritmos-basicos/src/busca/sequencial/BuscaSequencial.java)
 
 
 
