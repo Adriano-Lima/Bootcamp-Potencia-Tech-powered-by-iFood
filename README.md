@@ -65,7 +65,7 @@ Bootcamp Potência Tech powered by iFood <br/> Java Beginners</h1>
   
   - [x] Desafio: Busca Sequencial.
   
-  #### [Clique aqui para acessar TODOS os Desafios do Módulo 4](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/tree/main/Desafios-de-c%C3%B3digo/4-Dominando%20Algoritmos%20B%C3%A1sicos%20com%20Desafios%20de%20C%C3%B3digo%20Java)
+  #### [Clique aqui para acessar TODOS os Desafios do Módulo 4](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/tree/main/Desafios-de-c%C3%B3digo/4-Algoritmos%20B%C3%A1sicos)
 
  <br/>
 
@@ -109,7 +109,7 @@ Bootcamp Potência Tech powered by iFood <br/> Java Beginners</h1>
   
   - [x] Desafio: Fatorial Desajeitado
 
-#### [Clique aqui para acessar TODOS os Desafios do Módulo 7](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/tree/main/Desafios-de-c%C3%B3digo/7-Dominando%20Algoritmos%20Intermedi%C3%A1rios%20com%20Desafios%20de%20C%C3%B3digo%20Java)
+#### [Clique aqui para acessar TODOS os Desafios do Módulo 7](https://github.com/Adriano-Lima/Bootcamp-Potencia-Tech-powered-by-iFood/tree/main/Desafios-de-c%C3%B3digo/7-Algoritmos%20Intermedi%C3%A1rios)
 
  <br/>
 
