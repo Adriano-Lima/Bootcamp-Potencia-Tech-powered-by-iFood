@@ -526,6 +526,16 @@ Gerenciamento de Dependências e Build em Java com Maven
 
 Imersão no Spring Framework com Spring Boot
 	Framework open source desenvolvido para a plataforma Java baseado nos padrões de projetos inversão de controle e injeção de dependência.
+
+	Starters
+		descritores de dependencia
+
+	Benefícios
+		Coesão
+		Versões compatíveis
+		Otimização do tempo
+		Configuração simples
+		Foco no negócio	
 	
 	composta por modulos afim de reduzir a complexidade
 
@@ -534,6 +544,12 @@ Imersão no Spring Framework com Spring Boot
 	Injeção de dependência é um padrão de desenvolvimento com a finalidade de manter baixo o nível de acoplamento entre módulos de um sistema.
 
 	beans: objeto que é instanciado montado e gerenciado pelo container
+
+	@Bean
+		se eu nao tiver acesso ao codigo fonte
+
+	@Component
+		classes que foram criadas  
 
 	autowired: uma anotacao onde devera ocorrer uma injecao
 		byNme, byType, byConstructor
