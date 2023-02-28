@@ -19,7 +19,7 @@ Bootcamp Potência Tech powered by iFood <br/> Java Beginners</h1>
 
   - [x] Seja Protagonista Neste Bootcamp
 
-  - [x] ntrodução ao Desenvolvimento Moderno de Software
+  - [x] Introdução ao Desenvolvimento Moderno de Software
 
   - [x] Potência Tech powered by iFood - Java Beginners | Aula Inaugural
 
